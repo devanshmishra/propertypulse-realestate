@@ -1,0 +1,18 @@
+# Ignore everything
+*
+
+# Allow versioning of the themes folder
+!wp-content/
+wp-content/*
+!wp-content/themes/
+!wp-content/themes/**
+
+# Ignore unnecessary files within themes
+wp-content/themes/**/node_modules/
+wp-content/themes/**/vendor/
+wp-content/themes/**/dist/
+wp-content/themes/**/composer.lock
+wp-content/themes/**/package-lock.json
+wp-content/themes/**/yarn.lock
+wp-content/themes/**/.DS_Store
+wp-content/themes/**/Thumbs.db
